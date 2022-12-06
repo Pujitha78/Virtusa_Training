@@ -8,7 +8,6 @@ React Hooks allows React developers to make functional components stateful. Inst
 In React, hooks are functions that allow you to hook into React state and lifecycle features from function components. This allows you to use React without classes.
 
 There are several Hooks that we can use for our applications. You can even create your own. Some of the popular ones include:
-
 1. useState: returns a stateful value
 2. useEffect: perform side effects from function components
 3. useContext: accepts a context objects and returns current context value
@@ -41,5 +40,5 @@ Steps in creating to-do list:
 6. Toggle the task completion
 7. Delete completed tasks
 8. Add tasks with form component
-9. Finally our application is ready. 
+9. Finally our application is ready. At the terminal give the command: npm start, to run our application. 
 
