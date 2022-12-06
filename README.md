@@ -1,3 +1,6 @@
+I attached my practice codes and a word document that includes the react notes throughout my practice sessions.
+I created a simple To-Do list application.
+
 To-Do list:
 Using React hooks created a To-Do list app.
 React Hooks allows React developers to make functional components stateful. Instead of using a class component to hold stateful logic, we can use functional components.
@@ -40,4 +43,3 @@ Steps in creating to-do list:
 8. Add tasks with form component
 9. Finally our application is ready. 
 
-I attached my practice codes and a word document that includes the react notes throughout my practice sessions.
