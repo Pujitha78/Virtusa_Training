@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+To-Do list:
+Using React hooks created a To-Do list app.
+React Hooks allows React developers to make functional components stateful. Instead of using a class component to hold stateful logic, we can use functional components.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In React, hooks are functions that allow you to hook into React state and lifecycle features from function components. This allows you to use React without classes.
 
-## Available Scripts
+There are several Hooks that we can use for our applications. You can even create your own. Some of the popular ones include:
 
-In the project directory, you can run:
+useState: returns a stateful value
+useEffect: perform side effects from function components
+useContext: accepts a context objects and returns current context value
+useCallback: pass an inline callback and an array of dependencies
 
-### `npm start`
+Some benefits of hooks are:
+1. Isolating stateful logic, making it easier to test
+2. Sharing stateful logic without render props or higher-order components
+3. Separating your app’s concerns based on logic
+4. Avoiding ES6 classes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The only hook we will need for this particular to do list project is useState(). This hook replaces the need for a state object in a class component structure.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Our main aim is to create a To Do List UI. This UI will have three main components:
 
-### `npm test`
+1. Header that labels the To Do list. This is just a basic application identifier
+2. A list to display each to do item.
+3. A form that adds a To Do task item to the list. The default complete should be set to false.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+There are two additional features that we need to create are:
+1. giving the ability to toggle on and off i.e; strike the task whenever we completed it.
+2. At the end of the list we will prompt the user to delete the finished tasks and also to add new tasks as well.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Steps in creating to-do list:
+1. Create a react application: npx create-react-app todolist
+2. Navigate to App.js and start writing the code
+3. Create a new file "Header.js" in src directory
+4. It is optional to create a mock data which we will use to test our application. Create a new file in src directory data.json
+5. Read list of to dos and display
+6. Toggle the task completion
+7. Delete completed tasks
+8. Add tasks with form component
+9. Finally our application is ready. 
