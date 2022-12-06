@@ -39,3 +39,5 @@ Steps in creating to-do list:
 7. Delete completed tasks
 8. Add tasks with form component
 9. Finally our application is ready. 
+
+I have attached a word document at the end which includes the react notes through out my practice sessions.
