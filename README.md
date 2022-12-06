@@ -9,10 +9,10 @@ In React, hooks are functions that allow you to hook into React state and lifecy
 
 There are several Hooks that we can use for our applications. You can even create your own. Some of the popular ones include:
 
-useState: returns a stateful value
-useEffect: perform side effects from function components
-useContext: accepts a context objects and returns current context value
-useCallback: pass an inline callback and an array of dependencies
+1. useState: returns a stateful value
+2. useEffect: perform side effects from function components
+3. useContext: accepts a context objects and returns current context value
+4. useCallback: pass an inline callback and an array of dependencies
 
 Some benefits of hooks are:
 1. Isolating stateful logic, making it easier to test
