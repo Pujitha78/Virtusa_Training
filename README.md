@@ -40,4 +40,4 @@ Steps in creating to-do list:
 8. Add tasks with form component
 9. Finally our application is ready. 
 
-I have attached a word document at the end which includes the react notes through out my practice sessions.
+I attached my practice codes and a word document that includes the react notes throughout my practice sessions.
